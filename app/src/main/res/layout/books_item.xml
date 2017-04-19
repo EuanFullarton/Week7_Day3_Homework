@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:onClick="getBook">
+
+    <TextView
+        android:id="@+id/ranking"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textSize="75dp"
+        android:textAlignment="center"
+        android:layout_marginRight="20dp"
+        android:textColor="#0a0ee2"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:textColor="#008f0c"
+            android:orientation="horizontal"/>
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textColor="#ff0000"
+            android:orientation="horizontal"/>
+
+
+        <TextView
+            android:id="@+id/year"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
